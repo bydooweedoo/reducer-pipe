@@ -4,7 +4,7 @@ import incrementReducer from './increment';
 import decrementReducer from './decrement';
 
 export default reducerPipe([
-  state => (state ? state ? initialState),
+  state => (state ? state : initialState),
   incrementReducer,
   decrementReducer,
 ]);
