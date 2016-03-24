@@ -9,7 +9,7 @@
 [npm-badge]: https://img.shields.io/npm/v/reducer-pipe.svg?style=flat-square
 [npm]: https://www.npmjs.org/package/reducer-pipe
 
-`reducer-pipe` helps you to to pipe `redux` reducers with given state and action, passing previously returned state to next reducer, then keep last updated state.
+`reducer-pipe` helps you to pipe `redux` reducers with given state and action, passing previously returned state to next reducer, then keep last updated state.
 
 ## Getting started
 
