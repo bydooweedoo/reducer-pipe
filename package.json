@@ -23,7 +23,7 @@
     ]
   },
   "scripts": {
-    "prepublish": "npm run test && npm run build",
+    "prepublish": "npm run lint && npm run test && npm run build",
     "lint": "eslint src/*.js",
     "bench": "npm run build:commonjs && node $npm_package_config_bench_files",
     "test": "cross-env BABEL_ENV=commonjs mocha --compilers js:babel-register $npm_package_config_test_files --reporter $npm_package_config_reporter",
